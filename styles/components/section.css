@@ -1,0 +1,29 @@
+.section {
+  padding: 20px 0;
+}
+
+.section-title {
+  margin:20px 0;00
+}
+
+.section-subtitle {}
+
+.section-description {
+ margin-top: 10px;
+  font-size: 16px;
+line-height: 22px;
+color: #464649;
+}
+
+.section-search .grid-item{
+ margin-top: 10px; 
+}
+
+.section-reviews {
+  background: #F2F7FF;
+}
+
+.section-popular-tours {
+  background: #F2F7FF;
+}
+

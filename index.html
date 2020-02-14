@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/main.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <header class="header">
+        <div class="header-top">
+          <ul class="list">
+            <li class="phone icon-phone ">+47-124-82-232</li>
+          </ul>
+          <div class="logo">The North</div>
+
+          <div class="login">
+            <div class="search icon-search"></div>
+            <div class="login-photo"><img src="images/elena.jpg" alt="I"></div>
+            <p class="name">Elena</p>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <nav>
+            <div class="hamburger-menu">
+              <input id="menu__toggle" type="checkbox" />
+              <label class="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+
+              <ul class="menu__box">
+                <li><a class="menu__item" href="#">Home</a></li>
+                <li><a class="menu__item" href="#">Search for tours</a></li>
+                <li><a class="menu__item" href="#">Popular tours</a></li>
+                <li><a class="menu__item" href="#">Daily tours</a></li>
+                <li><a class="menu__item" href="#">About us</a></li>
+                <li><a class="menu__item" href="#">Reviews</a></li>
+                <li><a class="menu__item" href="#">Contacts</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <main class="main">
+      <section class="section hero section-hero">
+        <div class="container">
+          <h1 class="hero-title">Norway Excursions</h1>
+          <div class="hero-subtitle-container">
+            <p class="hero-subtitle">We have years of experience. Whether you are traveling to Norway by plane, bus or cruise ship, our excursions are available and accessible for everyone.</p>
+          </div>
+          <button class="button button-primary"> View all tours</button>
+        </div>
+      </section>
+      <section class="section section-search">
+        <div class="container">
+          <h2>Search for tours</h2>
+          <form method="post" class="form">
+            <div class="grid">
+              <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+                <p class="select-description">category</p>
+                <select class="select">
+                  <option value="1">1</option>
+                  <option selected value="all">All</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+                <p class="select-description">Tag</p>
+                <select class="select">
+                  <option value="1">1</option>
+                  <option selected value="all">Nordfjord</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+                <p class="select-description">Duration</p>
+                <select class="select">
+                  <option value="1">1</option>
+                  <option selected value="all">1 day</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+                <p class="select-description">Price</p>
+                <select class="select">
+                  <option value="1">1</option>
+                  <option selected value="all">Less then 70€</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+            </div>
+
+
+            <button class="button button-primary">Find tours</button>
+          </form>
+        </div>
+        <div class="search-background"></div>
+      </section>
+
+
+      <section class="section section-popular-tours">
+        <div class="container">
+          <h2 class="section-title">Popular tours</h2>
+          <div class="grid">
+            <div class="grid-item width-1-1 width-1-4-sm">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/northern-lights-and-a-snowmobile.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Northern Lights and Snowmobile riding</h3>
+                  <p class="card-description">Seeing the northern lights can be hard under the bright lights</p>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 12 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-4-sm">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/nathan-lemon-71056-unsplash.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Reindeer Feeding and Lasso Throwing</h3>
+                  <p class="card-description">Immerse yourself in Sami culture and feed a herd of 200</p>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 3 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-4-sm">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/arvid-malde-526095-unsplash.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Self-Guided Norway roundtrip: Oslo</h3>
+                  <p class="card-description">Experience Norway, and see Scandinavian scenery on this</p>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 10 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-4-sm">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/darkroomsg-263279-unsplash.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Drive a Husky Sled in Tromso</h3>
+                  <p class="card-description">Seeing the northern lights can be hard under the bright lights</p>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 3 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="button button-primary"> watch more</button>
+        </div>
+      </section>
+
+      <section class="section section-daily-tours">
+        <div class="container">
+          <h2 class="section-title">Daily tours</h2>
+          <div class="grid">
+            <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/reindeer-feeding-lasso-throwing-and-sami-culture-tour-including-lunch-in-troms-686668.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Reindeer Feeding and Lasso Throwing</h3>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 3 hour</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/linnea-friberg-472572-unsplash.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Lapland Lyngen Alps Snowmobile Safari</h3>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 2 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/aurlandsfjord-1-2000x1200.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Breathtaking fjord cruise</h3>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 4 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/stock-arctic-sea-ice-2.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Arctic Sea and Lyngen Alps</h3>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 5 hour</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/horfa_nordurljos_1800x851_f42cf99f-8135-41e3-bd70-f1dbcf6d7e44_1400x.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Aurora Hunt Northern Lights Tour</h3>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 6 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/4df7002e42dafa0fdc6d0f78dbfbba67.jpg" alt="card-image"></div>
+                <div class="card-padding">
+                  <h3 class="card-title">2-Hour Oslo Fjord Sightseeing Cruise</h3>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 2 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/thomas-lipke-522518-unsplash.jpg" alt=""></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Evening Husky Sled Ride</h3>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 2 hour</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-2-sm width-1-3-md width-1-4-lg">
+              <div class="card">
+                <div class="card-image"><img src="images/cards/northern-lights-explorer-3.jpg" alt=""></div>
+                <div class="card-padding">
+                  <h3 class="card-title">Small Group Northern Lights</h3>
+                  <div class="grid">
+                    <div class="grid-item">
+                      <p class="card-duration">Duration - 4 hours</p>
+                    </div>
+                    <div class="grid-item">
+                      <p class="card-cost">90€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="button button-primary"> watch more</button>
+        </div>
+      </section>
+
+      <section class="section section-who">
+        <div class="container">
+          <h2 class="section-title">Who we are?</h2>
+          <div class="grid">
+            <div class="grid-item width-1-1 width-1-2-md ">
+              <div class="grid b-radius">
+                <div class="grid-item width-1-2"><img src="images/who_we1.jpg" alt="we"></div>
+                <div class="grid-item width-1-2"><img src="images/who_we1.jpg" alt="we"></div>
+                <div class="grid-item width-1-2"><img src="images/who_we1.jpg" alt="we"></div>
+                <div class="grid-item width-1-2"><img src="images/who_we1.jpg" alt="we"></div>
+
+              </div>
+            </div>
+            <div class="grid-item width-1-1 width-1-2-md ">
+              <p class="section-description">Our company has years of experience in the world of tourism, providing excursions. We take care of our clients and all our staff is the most qualified professionals. We try to make our clients happy and make each excursion unforgettable for them.
+              </p>
+              <p class="section-description">We have the newest equipment everywhere you need it. We like animals and nature, that’s why our pets the happiest and the most beautiful. </p>
+              <p class="section-description">Let’s travel with us. We will make your life brighter.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-reviews">
+        <div class="container">
+          <h2 class="section-title">Reviews</h2>
+          <div class="card card-reviews card-padding">
+            <div class="grid">
+              <div class="grid-item">
+                <div class="grid">
+                  <div class="grid-item width-1-3">
+                    <img src="images/person1.png" alt="Face" class="person-photo"></div>
+                  <div class="grid-item width-2-3">
+                    <p class="person-name">Brian Cooper</p>
+                    <p class="person-from">New York, NY</p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="stars">
+                  <img src="images/star.png" alt="star">
+                  <img src="images/star.png" alt="star">
+                  <img src="images/star.png" alt="star">
+                  <img src="images/star.png" alt="star">
+                  <img src="images/star.png" alt="star">
+
+                </div>
+              </div>
+            </div>
+            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti inventore magnam blanditiis possimus a, facere consectetur eligendi nostrum atque non aperiam dicta! Quasi eligendi cupiditate laudantium vel voluptates enim error.</p>
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-background">
+        <img src="images/erik-ringsmuth-1357014-unsplash.jpg" alt="image" />
+      </div>
+      <div class="footer-overlay"></div>
+
+
+      <div class="footer-foreground">
+        <div class="container">
+          <h6 class="footer-title">Subscribe to our newsletter</h6>
+          <p class="footer-description">Enter your email</p>
+          <form class="form">
+            <input class="input" type="text" placeholder="Example@gmail.com">
+          </form>
+          <button class="button-primary button">Subscribe</button>
+          <div class="grid">
+            <div class="grid-item width-1-1 width-1-3-sm width-1-3-md">
+              <h6 class="footer-subtitle">Contacts</h6>
+              <ul class="list">
+                <li class="list-item">438 Example Street, San Francisco, CA 94528, USA</li>
+                <li class="list-item">+47-124-82-232</li>
+              </ul>
+            </div>
+            <div class="grid-item width-1-1 width-1-3-sm width-1-3-md">
+              <h6 class="footer-subtitle">Socials</h6>
+              <div class="grid footer-flex">
+                <div class="grid-item">
+                  <a href="#" class="footer-icon icon-instagram"></a>
+                </div>
+                <div class="grid-item">
+                  <a href="#" class="footer-icon icon-twitter1"></a>
+                </div>
+                <div class="grid-item">
+                  <a href="#" class="footer-icon icon-facebook1"></a>
+                </div>
+              </div>
+
+            </div>
+            <div class="grid-item width-1-1 width-1-3-sm width-1-3-md">
+              <div class="footer-logo">The North.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body></html>

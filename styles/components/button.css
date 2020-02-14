@@ -1,0 +1,40 @@
+.button {
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 0;
+  display: inline-block;
+  text-transform: none;
+  text-align: center;
+  text-decoration: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: 20px;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button-primary {
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 20px;
+  background-color: #FF0032;
+  color: white;
+  border-radius: 133px;
+
+}
+
+.button-primary:hover {
+  background-color: #b40023;
+  color: #cecece;
+}
+
+
+
+@media (min-width: 480px) {
+  .button-primary{
+    width: 272px;
+  }
+}
+

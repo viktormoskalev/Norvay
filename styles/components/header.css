@@ -1,0 +1,45 @@
+.header {
+  padding: 10px 0;
+}
+
+
+.header-top {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 24px;
+}
+.header-top > *{
+margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .name {
+  font-size: 20px;
+}
+
+.login-photo {
+  display: inline-block;
+  height: 29px;
+  width: 29px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.header-top .list {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.header-top .list li::before {
+  margin-right: 10px;
+}
