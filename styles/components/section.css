@@ -27,7 +27,28 @@ color: #464649;
   background: #F2F7FF;
 }
 
-.section-background{
-  height: 500px;
-  background-image: url(../../images/mountains.jpg)
+.section-search{
+  background-image: url(../../images/mountains.jpg);
+}
+
+.section-daily-tours{
+  background-image: url(../../images/mountains2.jpg);
+}
+
+.section-daily-tours , .section-search{
+  padding-bottom: 550px;
+  background-origin:padding-box;
+  background-position:bottom center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+@media (min-width: 1441px){
+  .section-daily-tours , .section-search {
+     background-size: 100% 80%;
+  }
 }
