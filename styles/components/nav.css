@@ -30,7 +30,7 @@
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 100;
   background-color: rgba(255, 255, 255, 0.42);
   padding-left: 3px;
 
@@ -74,6 +74,7 @@
   background-color: #ffffff;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2); 
   transition-duration: .25s;
+  z-index: 99;
 }
 
 .menu__item {
@@ -83,9 +84,26 @@
   font-size: 20px;
   font-weight: 800;
   transition-duration: .25s;
+
 }
 
 .menu__item:hover {
   background-color: #CFD8DC;
 }
 
+@media (min-width: 640px){
+  .menu__btn {
+    display: none;
+  }
+  
+.menu__box{
+position: static ; 
+  display: flex;
+    visibility: visible; 
+  width: 100%;
+  justify-content: center;
+  padding: 30px 0;
+  box-shadow: none;
+    }
+  
+}

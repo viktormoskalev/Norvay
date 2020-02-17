@@ -27,3 +27,7 @@ color: #464649;
   background: #F2F7FF;
 }
 
+.section-background{
+  height: 500px;
+  background-image: url(../../images/mountains.jpg)
+}
