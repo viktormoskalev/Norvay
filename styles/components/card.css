@@ -3,6 +3,7 @@
   box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
   border-radius: 20px;
   overflow: hidden;
+
 }
 
 .card-padding {
@@ -53,3 +54,53 @@
   color: #373F55;
   font-weight: 600;
 }
+
+  .max-4 .grid-item:nth-child(n+2){
+display: none;
+}
+
+  .max-8 .grid-item:nth-child(n+3){
+display: none;
+}
+
+
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 640px) {
+  
+    .max-4 .grid-item:nth-child(n+4){
+display: block;
+}   
+  .max-8 .grid-item:nth-child(n+7){
+display: block;
+}
+  
+}
+
+
+@media (min-width: 960px) {
+  .max-4 .grid-item:nth-child(n+3){
+display: block;
+}
+    .max-8 .grid-item:nth-child(n+5){
+display: block;
+}
+  
+  
+
+}
+
+@media (min-width: 1200px) {
+  .section .max-4 .grid-item{
+display: block;
+}
+   .section .max-8 .grid-item{
+display: block;
+}
+}
+
+  
+

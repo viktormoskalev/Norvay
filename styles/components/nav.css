@@ -27,12 +27,13 @@
   position: fixed;
   top: 20px;
   left: 20px;
-  width: 26px;
-  height: 26px;
+  width: 40px;
+  height: 36px;
   cursor: pointer;
   z-index: 100;
-  background-color: rgba(255, 255, 255, 0.42);
-  padding-left: 3px;
+  background-color: rgba(209, 209, 209, 0.42);
+  padding-left: 5px;
+
 
 }
 
@@ -41,11 +42,10 @@
 .menu__btn > span::after {
   display: block;
   position: absolute;
+  width: 30px;
+  height: 3px;
 
-  width: 20px;
-  height: 2px;
-
-  background-color: #616161;
+  background-color: #000000;
 
   transition-duration: .25s;
 }
@@ -75,6 +75,7 @@
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2); 
   transition-duration: .25s;
   z-index: 99;
+  
 }
 
 .menu__item {
@@ -91,7 +92,7 @@
   background-color: #CFD8DC;
 }
 
-@media (min-width: 640px){
+@media (min-width: 960px){
   .menu__btn {
     display: none;
   }
@@ -99,11 +100,12 @@
 .menu__box{
 position: static ; 
   display: flex;
-    visibility: visible; 
+  flex-wrap: wrap;
+  visibility: visible; 
   width: 100%;
   justify-content: center;
   padding: 30px 0;
   box-shadow: none;
-    }
+  }
   
 }
