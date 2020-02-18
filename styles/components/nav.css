@@ -93,6 +93,8 @@
 }
 
 @media (min-width: 960px){
+  
+  
   .menu__btn {
     display: none;
   }
@@ -104,8 +106,13 @@ position: static ;
   visibility: visible; 
   width: 100%;
   justify-content: center;
-  padding: 30px 0;
+  padding: 15px 0 0 0;
   box-shadow: none;
+  }
+  
+  .menu__item{
+    font-size: 18px;
+    padding: 12px;
   }
   
 }

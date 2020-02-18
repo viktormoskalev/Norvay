@@ -1,5 +1,5 @@
 .header {
-padding-top: 10px;
+padding: 15px 0;
 }
 
 
@@ -14,6 +14,7 @@ padding-top: 10px;
 margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 0;
 }
 
 .login {
@@ -34,12 +35,43 @@ margin-top: 10px;
   margin-right: 5px;
 }
 
+.search{
+  margin-right: 25px;
+  font-size: 19px;
+}
+
 .header-top .list {
   list-style-type: none;
   padding-left: 20px;
-  margin: 0;
+  margin-top: 6px;
+  padding: 0
 }
+
+.header-top .list li {
+ font-size: 18px;
+  color: #0B1014;
+  font-weight: 900;
+}
+
+
 
 .header-top .list li::before {
   margin-right: 10px;
+}
+
+@media (min-width: 960px) {
+.header-top {
+  justify-content: space-between;
+}
+  
+  .header {
+padding-top: 30px;
+}
+  .header-top{
+    padding: 0;
+  }
+    .header-top >*{
+  margin: 0;
+  }
+  
 }

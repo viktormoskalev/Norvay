@@ -3,11 +3,17 @@
   box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
   border-radius: 20px;
   overflow: hidden;
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .card-padding {
   padding: 20px;
+flex-grow: 1;
+  display: flex;
+ flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-title {}
@@ -16,9 +22,6 @@
   margin: 20px 0;
 }
 
-.card-image {
-
-}
 
 .card-image > img {
   max-height: 40vh;
@@ -28,6 +31,10 @@
 
 .card .grid {
   justify-content: space-between;
+}
+
+.card-reviews .grid{
+  justify-content: space-around;
 }
 
 .card .stars img {
@@ -49,17 +56,22 @@
 }
 
 .card-cost {
+  height: 50px;
   font-size: 30px;
   line-height: 36px;
   color: #373F55;
   font-weight: 600;
 }
 
-  .max-4 .grid-item:nth-child(n+2){
+.max-4 , .max-8{
+  align-items: stretch;
+}
+
+  .max-4 >.grid-item:nth-child(n+2){
 display: none;
 }
 
-  .max-8 .grid-item:nth-child(n+3){
+  .max-8 >.grid-item:nth-child(n+3){
 display: none;
 }
 
@@ -72,10 +84,10 @@ display: none;
 @media (min-width: 640px) {
   
     .max-4 .grid-item:nth-child(n+4){
-display: block;
+display: flex;
 }   
   .max-8 .grid-item:nth-child(n+7){
-display: block;
+display: flex;
 }
   
 }
@@ -83,11 +95,12 @@ display: block;
 
 @media (min-width: 960px) {
   .max-4 .grid-item:nth-child(n+3){
-display: block;
+display: flex;
 }
     .max-8 .grid-item:nth-child(n+5){
-display: block;
+display: flex;
 }
+  
   
   
 
@@ -95,10 +108,10 @@ display: block;
 
 @media (min-width: 1200px) {
   .section .max-4 .grid-item{
-display: block;
+display: flex;
 }
    .section .max-8 .grid-item{
-display: block;
+display: flex;
 }
 }
 

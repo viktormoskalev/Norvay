@@ -8,24 +8,25 @@
 
 .hero-title {
 font-weight: 900;
+  font-size: 56px
 }
 
 .hero-subtitle {
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 500;
-  line-height: 23px;
 }
 
 @media (min-width: 640px) {
   .hero-title{
   	font-size: 90px;
     color: #FFFFFF;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    text-shadow: none;
+
   }
   .hero-subtitle-container{
   	margin: 0 auto;
   	width: 550px;
-  	margin-bottom: 30px;
   }
   .section.hero{
   	padding: 100px 0;
@@ -38,9 +39,14 @@ font-weight: 900;
   .hero-subtitle-container{
   	margin: 0 auto;
   	width: 643px;
-  	margin-bottom: 60px;
   }
   .section.hero{
   	padding: 189px 0;
   }
+  
+  .hero-subtitle {
+ font-size: 16px;
+line-height: 23px;
+    font-weight: 500;
+}
 }

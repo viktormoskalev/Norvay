@@ -8,7 +8,7 @@
   text-decoration: none;
   -webkit-appearance: none;
   appearance: none;
-  margin-top: 20px;
+
 }
 
 .button:hover {
@@ -17,12 +17,12 @@
 
 .button-primary {
   width: 100%;
-  padding: 10px 0px;
-  font-size: 20px;
+  padding: 13px 0px;
+  font-size: 16px;
   background-color: #FF0032;
   color: white;
   border-radius: 133px;
-
+    margin-top: 45px;
 }
 
 .button-primary:hover {

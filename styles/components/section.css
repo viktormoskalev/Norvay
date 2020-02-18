@@ -1,9 +1,14 @@
 .section {
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 .section-title {
-  margin:20px 0;00
+  margin:20px 0;
+  font-size: 52px;
+line-height: 64px;
+text-align: center;
+font-weight: 900;
+color: #061E33;
 }
 
 .section-subtitle {}
@@ -27,6 +32,8 @@ color: #464649;
   background: #F2F7FF;
 }
 
+@media (min-width: 960px){
+
 .section-search{
   background-image: url(../../images/mountains.jpg);
 }
@@ -42,12 +49,15 @@ color: #464649;
   background-repeat: no-repeat;
 }
 
-
-
-
-
-
-@media (min-width: 1441px){
+  
+}
+@media (min-width: 960px){
+  .section-title{
+    margin-top: 65px;
+    margin-bottom: 50px;
+  }
+  
+}@media (min-width: 1440px){
   .section-daily-tours , .section-search {
      background-size: 100% 80%;
   }
