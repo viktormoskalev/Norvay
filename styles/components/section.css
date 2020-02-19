@@ -35,11 +35,11 @@ color: #464649;
 @media (min-width: 960px){
 
 .section-search{
-  background-image: url(../../images/mountains.jpg);
+  background-image: url(../../images/bg_2.jpg);
 }
 
 .section-daily-tours{
-  background-image: url(../../images/mountains2.jpg);
+  background-image: url(../../images/mountains2-min.jpg);
 }
 
 .section-daily-tours , .section-search{
