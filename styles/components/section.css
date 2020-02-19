@@ -62,3 +62,9 @@ color: #464649;
      background-size: 100% 80%;
   }
 }
+
+.person-photo{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
