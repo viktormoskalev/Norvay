@@ -42,11 +42,11 @@
           slidesPerView: 2,
           spaceBetween: 30,
         },
-        1048: {
+        960: {
           slidesPerView: 3,
           spaceBetween: 20,
         },        
-        1440: {
+        1200: {
           slidesPerView: 4,
           spaceBetween: 30,
         },

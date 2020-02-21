@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+*:hover{
+  outline: red solid 2px;
+}
+
 
 html {
   font-size: 16px;

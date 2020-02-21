@@ -1,6 +1,12 @@
 .swiper-container {
   width: 100%;
-  padding: 50px 0;
+}
+
+.swiper-wrapper{
+}
+
+.swiper-slide{
+height: auto;
 }
 
 .swiper-container2 {
