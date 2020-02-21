@@ -86,3 +86,17 @@
 .textarea {
   resize: none;
 }
+
+.select-description{
+font-size: 14px;
+  color: #888EA0;
+   margin-bottom: 8px;
+}
+
+@media (min-width: 960px){
+.select-description{
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 2px;
+}
+  }
