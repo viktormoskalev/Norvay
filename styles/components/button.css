@@ -22,7 +22,7 @@
   background-color: #FF0032;
   color: white;
   border-radius: 133px;
-    margin-top: 45px;
+    margin-top: 45px;S
 }
 
 .button-primary:hover {
@@ -36,5 +36,12 @@
   .button-primary{
     width: 272px;
   }
+
 }
 
+@media (min-width: 960px) {
+  .button-primary{
+    padding: 16px 0;
+  }
+  
+}

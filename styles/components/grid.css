@@ -41,9 +41,13 @@
 }
 
 .grid-17{
-margin: -8.5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -7px;
 }
 
 .grid-17 .grid-item{
-padding: 8.5px;
+padding: 7px;
 }

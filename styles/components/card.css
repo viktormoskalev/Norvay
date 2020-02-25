@@ -113,5 +113,13 @@ display: flex;
 }
 }
 
+.card-link{
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0F2D47;
+  text-decoration: underline;
+}
+
   
 

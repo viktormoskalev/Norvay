@@ -122,8 +122,10 @@
 
 @media (min-width: 640px) {
   .footer-container{
-    width: 591px;
+    width: 640px;
     margin: 0 auto;
+    padding-right: 80px;
+    margin-top: -15px;
   }
 
   .footer .button-primary{
@@ -147,5 +149,43 @@
   .align-left{
     text-align: left;
   }
+
+  .footer-title{
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
   
+  .footer-description{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: -12px;
+  }
+
+  .footer-flex{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-icon{
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .perfect-top{
+    margin-top: -17px;
+  }
+
+  .footer .input{
+    height: 55px;
+  }
+
+  .margin-top-contacts{
+    margin-top: 20px;
+  }
+
+  .margin-right{
+    margin-right: -130px;
+    margin-top: -36px;
+  }
+
 }
