@@ -61,6 +61,11 @@ color: #464649;
     margin-top: 0px;
     margin-bottom: 45px;
   }
+
+  .section-who .section-description{
+    text-align: left;
+    line-height: 25px;
+  }
   
 }
 
