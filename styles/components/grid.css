@@ -22,7 +22,7 @@
   margin: 0 -55px;
 }
 
-.grid-large .grid-item {
+.grid-large > .grid-item {
   padding: 0 55px;
 }
 
@@ -30,7 +30,7 @@
   margin: 0 -12px;
 }
 
-.grid-min .grid-item {
+.grid-min > .grid-item {
   padding: 0 10px;
 }
 
@@ -54,4 +54,11 @@
 
 .grid-17 .grid-item{
 padding: 7px;
+}
+
+.grid-xxl{
+  margin: 0 -90px;
+}
+.grid-xxl > .grid-item{
+padding: 0 90px;
 }

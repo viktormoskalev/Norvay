@@ -8,14 +8,14 @@
   height: 100%;
 }
 
-.card-shadow .card{
+.card-shadow .card {
   box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
 }
 
 .card-padding {
   padding: 17px;
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
@@ -25,12 +25,12 @@
   margin-bottom: 8px;
 }
 
-.reviews-counter{
-font-size: 13px;
-line-height: 15px;
-color: #888EA0;
+.reviews-counter {
+  font-size: 13px;
+  line-height: 15px;
+  color: #888EA0;
   text-align: left;
-flex-grow: 1;
+  flex-grow: 1;
 }
 
 .card-description {
@@ -42,21 +42,34 @@ flex-grow: 1;
   max-height: 40vh;
 }
 
+.person-photo{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+
 .card .grid {
   justify-content: space-between;
 }
 
-.card-reviews .grid{
-  justify-content: space-around;
+.card-reviews{
+  padding: 22px;
 }
 
+.card-reviews .grid {
+  justify-content: space-around;
+}
+.card .stars{
+  line-height: 0;
+}
 .card .stars img {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   display: inline-block;
 }
 
-.card-cost, {
+.card-cost{
   font-size: 30px;
 }
 
@@ -73,53 +86,71 @@ flex-grow: 1;
   font-weight: 600;
 }
 
- .max-8{
+.card-reviews .person-photo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.person-name{
+  color:black;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.person-from{
+  color: #888EA0;
+  font-size: 13px;
+line-height: 18px;
+}
+
+.max-8 {
   align-items: stretch;
 }
 
-  .max-8 >.grid-item:nth-child(n+3){
-display: none;
+.max-8 > .grid-item:nth-child(n+3) {
+  display: none;
 }
 
 
 
-@media (min-width: 480px) {
-
-}
+@media (min-width: 480px) {}
 
 @media (min-width: 640px) {
-  .max-8 .grid-item:nth-child(n+7){
-display: flex;
-}
+  .max-8 .grid-item:nth-child(n+7) {
+    display: flex;
+  }
 }
 
 
 @media (min-width: 960px) {
-  .card{
+  .card {
     text-align: left;
   }
-    .max-8 .grid-item:nth-child(n+5){
-display: flex;
-}
-  
-  
-  
+
+  .max-8 .grid-item:nth-child(n+5) {
+    display: flex;
+  }
+
+
+
 
 }
 
 @media (min-width: 1200px) {
-   .section .max-8 .grid-item{
-display: flex;
+  .card-reviews .grid {
+  justify-content: space-between;
 }
+  .section .max-8 .grid-item {
+    display: flex;
+  }
 }
 
-.card-link{
+.card-link {
   text-align: right;
   font-size: 14px;
   font-weight: bold;
   color: #0F2D47;
   text-decoration: underline;
 }
-
-  
-

@@ -20,11 +20,6 @@ line-height: 22px;
 color: #464649;
 }
 
-.person-photo{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
 
 .section-search .grid-item{
  margin-top: 10px; 
@@ -73,7 +68,7 @@ color: #464649;
 @media (min-width: 1200px){
   
   .section{
-    padding: 90px;
+    padding: 90px 0;
   }  
 }
 

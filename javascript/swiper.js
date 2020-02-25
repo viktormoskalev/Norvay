@@ -6,13 +6,14 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-       autoplay: {
-    delay: 2000,
-  },
+
       breakpoints: {
         640:{
           slidesPerView: 2,
           spaceBetween: 30,
+                 autoplay: {
+    delay: 2000,
+  },
         },
         1048: {
           slidesPerView: 3,
@@ -22,7 +23,7 @@
           slidesPerView: 4,
           spaceBetween: 50,
           slidesOffsetBefore: 250,
-        },
+        }, 
       }
     });
 

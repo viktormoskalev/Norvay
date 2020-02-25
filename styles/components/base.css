@@ -1,11 +1,7 @@
 * {
   box-sizing: border-box;
+  outline: solid
 }
-
-*:hover{
-  outline: red solid 2px;
-}
-
 
 html {
   font-size: 16px;
@@ -88,4 +84,16 @@ img {
   font-size: 28px;
   font-weight: 900;
   color: #0F2D47;
+}
+.icon-absolut{
+  position: relative;
+}
+.icon-absolut::before{
+  position: absolute;
+  left:-30px;
+  font-size: 18px;
+}
+
+.pl-20{
+  padding-left: 30px !important;
 }
