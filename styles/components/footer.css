@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .footer-title {
@@ -22,6 +22,7 @@
 
 .footer-background img {
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -31,8 +32,14 @@
   left: 0;
   right: 0;
   bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background-color: rgba(6, 30, 51, 0.45);
   opacity: 0.5;
@@ -74,7 +81,7 @@
 
 
 .list-item {
-  margin-bottom: 15px;
+  margin-bottom: 9px;
 }
 
 
@@ -84,21 +91,30 @@
   border-radius: 50%;
   width: 45px;
   height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-size: 23px;
 }
 
 
-.footer-icon:hover{
+.footer-icon:hover {
   background: black;
   color: white;
-  
+
 }
 
 .footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -108,27 +124,28 @@
   color: #FFFFFF;
   margin-top: 20px;
   text-align: center;
+  font-weight: 900;
 }
 
 
-.footer-container{
+.footer-container {
   width: 100%;
 }
 
-.footer .input{
+.footer .input {
   max-width: 368px;
 }
 
 
 @media (min-width: 640px) {
-  .footer-container{
+  .footer-container {
     width: 640px;
     margin: 0 auto;
     padding-right: 80px;
     margin-top: -15px;
   }
 
-  .footer .button-primary{
+  .footer .button-primary {
     max-width: 206px;
     font-size: 16px;
     line-height: 19px;
@@ -137,53 +154,60 @@
 
 
 @media (min-width: 960px) {
-  .footer-subtitle{
+  .footer-subtitle {
     font-size: 16px;
     line-height: 20px;
   }
- .footer .list{
+
+  .footer .list {
     font-size: 14px;
     line-height: 20px;
     text-align: left;
   }
-  .align-left{
+
+  .align-left {
     text-align: left;
   }
 
-  .footer-title{
+  .footer-title {
     font-size: 24px;
     margin-bottom: 60px;
   }
-  
-  .footer-description{
+
+  .footer-description {
     font-size: 14px;
     text-align: left;
     margin-bottom: -12px;
   }
 
-  .footer-flex{
+  .footer-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
-  .footer-icon{
+
+  .footer-icon {
     width: 25px;
     height: 25px;
     font-size: 16px;
   }
 
-  .perfect-top{
+  .perfect-top {
     margin-top: -17px;
   }
 
-  .footer .input{
+  .footer .input {
     height: 55px;
   }
 
-  .margin-top-contacts{
+  .margin-top-contacts {
     margin-top: 20px;
   }
 
-  .margin-right{
+  .margin-right {
     margin-right: -130px;
     margin-top: -36px;
   }

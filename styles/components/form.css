@@ -41,6 +41,14 @@
   border-color: #e5e5e5;
 }
 
+.input::-webkit-input-placeholder {
+  color: #373F55;
+}
+
+.input:-ms-input-placeholder {
+  color: #373F55;
+}
+
 .input::placeholder {
   color: #373F55;
 }
@@ -64,8 +72,14 @@
   bottom: 0;
   left: 0;
   width: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   color: #373F55;
 }

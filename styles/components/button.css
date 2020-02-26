@@ -22,7 +22,8 @@
   background-color: #FF0032;
   color: white;
   border-radius: 133px;
-    margin-top: 45px;S
+  margin-top: 45px;
+  S
 }
 
 .button-primary:hover {
@@ -33,15 +34,15 @@
 
 
 @media (min-width: 480px) {
-  .button-primary{
+  .button-primary {
     width: 272px;
   }
 
 }
 
 @media (min-width: 960px) {
-  .button-primary{
+  .button-primary {
     padding: 16px 0;
   }
-  
+
 }

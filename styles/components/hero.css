@@ -8,7 +8,7 @@
 }
 
 .hero-title {
-font-weight: 900;
+  font-weight: 900;
   font-size: 56px
 }
 
@@ -18,36 +18,40 @@ font-weight: 900;
 }
 
 @media (min-width: 640px) {
-  .hero-title{
-  	font-size: 90px;
+  .hero-title {
+    font-size: 90px;
     color: #FFFFFF;
     margin-bottom: 10px;
     text-shadow: none;
+  }
 
+  .hero-subtitle-container {
+    margin: 0 auto;
+    width: 550px;
   }
-  .hero-subtitle-container{
-  	margin: 0 auto;
-  	width: 550px;
+
+  .section.hero {
+    padding: 100px 0;
   }
-  .section.hero{
-  	padding: 100px 0;
-  }
+}
 
 @media (min-width: 960px) {
-  .hero-title{
-  	font-size: 90px;
+  .hero-title {
+    font-size: 90px;
   }
-  .hero-subtitle-container{
-  	margin: 0 auto;
-  	width: 643px;
+
+  .hero-subtitle-container {
+    margin: 0 auto;
+    width: 643px;
   }
-  .section.hero{
-  	padding: 189px 0;
+
+  .section.hero {
+    padding: 189px 0;
   }
-  
+
   .hero-subtitle {
- font-size: 16px;
-line-height: 23px;
+    font-size: 16px;
+    line-height: 23px;
     font-weight: 500;
-}
+  }
 }

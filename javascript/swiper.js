@@ -20,9 +20,14 @@
           spaceBetween: 20,
         },        
         1440: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+          slidesOffsetBefore: 280,
+        }, 
+                1640: {
           slidesPerView: 4,
           spaceBetween: 50,
-          slidesOffsetBefore: 250,
+          slidesOffsetBefore: 280,
         }, 
       }
     });

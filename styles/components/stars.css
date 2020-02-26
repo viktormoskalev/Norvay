@@ -3,11 +3,10 @@
   border: 0;
   padding: 0;
   color: #F6A326;
-  transform: scale(5), rotate(90deg);
 }
 
 .rate input {
-display: none;
+  display: none;
 }
 
 .rate > label {
@@ -23,7 +22,6 @@ display: none;
   font-family: stars;
   content: "\e904";
 }
-
 
 .rate .half::before {
   position: absolute;
@@ -47,12 +45,9 @@ input:checked + .half::before,
   content: "\e905";
 }
 
-
-
 label:hover ~ input:checked ~ label::before {
   content: "\e906";
 }
-
 
 input:checked ~ label::before,
 .rate.rate label:hover::before,

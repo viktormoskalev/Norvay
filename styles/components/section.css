@@ -3,26 +3,23 @@
 }
 
 .section-title {
-  margin:20px 0;
+  margin: 20px 0;
   font-size: 52px;
-line-height: 64px;
-text-align: center;
-font-weight: 900;
-color: #061E33;
+  line-height: 64px;
+  text-align: center;
+  font-weight: 900;
+  color: #061E33;
 }
-
-.section-subtitle {}
 
 .section-description {
- margin-top: 10px;
+  margin-top: 10px;
   font-size: 16px;
-line-height: 22px;
-color: #464649;
+  line-height: 22px;
+  color: #464649;
 }
 
-
-.section-search .grid-item{
- margin-top: 10px; 
+.section-search .grid-item {
+  margin-top: 10px;
 }
 
 .section-reviews {
@@ -30,50 +27,53 @@ color: #464649;
 }
 
 .section-popular-tours {
-  background: #F2F7FF; 
+  background: #F2F7FF;
 }
 
-@media (min-width: 960px){
+@media (min-width: 960px) {
+  .section-search {
+    background-image: url(../../images/bg_2.jpg);
+  }
 
-.section-search{
-  background-image: url(../../images/bg_2.jpg);
-}
+  .section-daily-tours {
+    background-image: url(../../images/mountains2-min.jpg);
+  }
 
-.section-daily-tours{
-  background-image: url(../../images/mountains2-min.jpg);
-}
+  .section.section-daily-tours,
+  .section.section-search {
+    padding-bottom: 550px;
+    background-origin: padding-box;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
 
-.section.section-daily-tours , .section.section-search{
-  padding-bottom: 550px;
-  background-origin:padding-box;
-  background-position:bottom center;
-  background-repeat: no-repeat;
-}
-  .section{
+  .section {
     padding: 50px;
-  }  
-  .section-title{
+  }
+
+  .section-title {
     margin-top: 0px;
     margin-bottom: 45px;
   }
 
-  .section-who .section-description{
+  .section-who .section-description {
     text-align: left;
     line-height: 25px;
   }
-  
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
   
-  .section{
+  .section {
     padding: 90px 0;
-  }  
+  }
 }
 
-@media (min-width: 1440px){
-  .section-daily-tours , .section-search {
-     background-size: 100% 60%;
+@media (min-width: 1440px) {
+
+  .section-daily-tours,
+  .section-search {
+    background-size: 100% 60%;
   }
 }
