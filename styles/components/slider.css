@@ -20,6 +20,7 @@
   height: 50px;
   position: relative;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .swiper-button-next,
@@ -31,6 +32,14 @@
   border-radius: 50%;
   padding: 23px;
   --swiper-theme-color: black;
+  outline: none;
+}
+
+.swiper-button-next:focus,
+.swiper-button-prev:focus,
+.swiper2-button-next:focus,
+.swiper2-button-prev:focus{
+ box-shadow: 0 0 5px #000;
 }
 
 .swiper2-button-next {

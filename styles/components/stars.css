@@ -45,11 +45,11 @@ input:checked + .half::before,
   content: "\e905";
 }
 
-label:hover ~ input:checked ~ label::before {
+.rate label:hover ~ input:checked ~ label::before {
   content: "\e906";
 }
 
-input:checked ~ label::before,
+.rate input:checked ~ label::before,
 .rate.rate label:hover::before,
 .rate label:hover ~ label::before {
   content: "\e906";

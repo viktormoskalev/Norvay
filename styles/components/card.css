@@ -18,7 +18,7 @@
   box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
 }
 
-.card-padding {
+.card-content {
   padding: 17px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,9 +158,6 @@
     display: -ms-flexbox;
     display: flex;
   }
-
-
-
 
 }
 
